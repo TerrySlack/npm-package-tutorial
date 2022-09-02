@@ -1,4 +1,5 @@
 import { Hello } from "./shared/components/Hello";
+export { Button } from "./shared/components/Button";
 // interface Props {
 //   name: string;
 // }
@@ -10,6 +11,4 @@ import { Hello } from "./shared/components/Hello";
 //   </div>
 // );
 
-export { Hello };
-
-//export default SayHello;
+export default Hello;
