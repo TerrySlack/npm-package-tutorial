@@ -1,0 +1,10 @@
+.button {
+  border-radius: 20px;
+  border: 2px dodgerblue solid;
+  color: darksalmon;
+}
+
+.white {
+  color: #fff;
+  background-color: dodgerblue;
+}

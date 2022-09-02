@@ -1,6 +1,6 @@
 {
   "name": "npm-tutorial-create-a-package",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
@@ -10,7 +10,7 @@
     "url": "git+git@github.com:TerrySlack/npm-package-tutorial.git"
   },
   "files": [
-    "dist",
+    "lib",
     "css/antd-ui-b.min.css",
     "LICENSE",
     "README.md"
@@ -28,7 +28,7 @@
     "typescript": "^4.8.2"
   },
   "peerDependencies": {
-    "react": ">=16",
-    "react-dom": ">=16"
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
   }
 }
