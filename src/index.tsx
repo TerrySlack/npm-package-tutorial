@@ -1,5 +1,7 @@
 import { Hello } from "./shared/components/Hello";
 export { Button } from "./shared/components/Button";
+
+import "./index.css";
 // interface Props {
 //   name: string;
 // }
